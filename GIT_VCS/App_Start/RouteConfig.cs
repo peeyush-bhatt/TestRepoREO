@@ -16,7 +16,7 @@ namespace GIT_VCS
             routes.MapRoute(
                 name: "Default",
                 url: "{controller}/{action}/{id}",
-                defaults: new { controller = "Home", action = "Index123 ", id = UrlParameter.Optional }
+                defaults: new { controller = "Home", action = "Index123222 ", id = UrlParameter.Optional }
             );
         }
     }
